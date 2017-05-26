@@ -52,7 +52,7 @@ if enz== '+':
 
         input_count4=input('')
         number4=input_count4
-        while (number5==0):
+        if (number5==0):
             print('error')
 
         ans/=number5
@@ -102,7 +102,7 @@ elif enz=='-':
 
         input_count4=input('')
         number4=input_count4
-        while (number5==0):
+        if (number5==0):
             print('error')
 
         ans/=number5
@@ -111,7 +111,7 @@ elif enz=='-':
     
 
 elif enz=='/':
-    while (number2==0):
+    if (number2==0):
         print('error')
     ans =number1/number2
     
@@ -154,7 +154,7 @@ elif enz=='/':
 
         input_count4=input('')
         number4=input_count4
-        while (number5==0):
+        if (number5==0):
             print('error')
 
         ans/=number5
@@ -203,7 +203,7 @@ elif enz=='*':
 
         input_count4=input('')
         number4=input_count4
-        while (number5==0):
+        if (number5==0):
             print('error')
 
         ans/=number5
